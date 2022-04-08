@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portfolio - KevinMJ | Home</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon.png">
+        <!-- Remix icons-->
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+        <!-- Swiper.js styles-->
+        <link rel="stylesheet" href="./assets/css/swiper-bundle.min.css"/>
+        <!-- Custom Styles-->
+        <link rel="stylesheet" href="./assets/css/main.css">
+    </head>
+    <body>
+        <!-- Header-->
+        <header class="header" id="header">
+            <nav class="navbar container">
+                <a href="./index.html">
+                    <h2 class="logo">Kevin MJ</h2>
+                </a>
+
+                <div class="menu" id="menu">
+                    <ul class="list">
+                        <li class="list-item">
+                            <a href="#" class="list-link current">Inicio</a>
+                        </li>
+                        <li class="list-item">
+                            <a href="#" class="list-link">Categorias</a>
+                        </li>
+                        <li class="list-item">
+                            <a href="#" class="list-link">Reseñas</a>
+                        </li>
+                        <li class="list-item">
+                            <a href="#" class="list-link">Noticias</a>
+                        </li>
+                        <li class="list-item">
+                            <a href="#" class="list-link">Membresias</a>
+                        </li>
+                        <li class="list-item">
+                            <a href="#" class="list-link">Contacto</a>
+                        </li>
+                        <li class="list-item screen-lg-hidden">
+                            <a href="./signin.html" class="list-link">Ingresar</a>
+                        </li>
+                        <li class="list-item screen-lg-hidden">
+                            <a href="#" class="list-link">Registrarse</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="list item-right">
+                    <button class="btn place-items-cente" id="theme-toggle-btn">
+                        <i class="ri-sun-line sun-icon"></i>
+                        <i class="ri-moon-line moon-icon"></i>
+                    </button>
+                    <button class="btn place-item-center" id="search-icon">
+                        <i class="ri-search-line"></i>
+                    </button>
+                    <button class="btn place-item-center screen-lg-hiddn menu-toggle-icon" id="menu-toggle-icon">
+                        <i class="ri-menu-3-line open-menu-icon"></i>
+                        <i class="ri-close-line close-menu-icon"></i>
+                    </button>
+                    <a href="#" class="list-link screen-sm-hidden">Ingresar</a>
+                    <a href="#" class="btn sign-up-btn fancy-border screen-sm-hidden">
+                        <span>Registrarse</span>
+                    </a>
+                </div>
+            </nav>
+        </header>
+<!-- search -->
+<div class="search-form-container container" id="search-form-container">
+
+    <div class="form-container-inner">
+        <form action="" class="form">
+            <input type="text" class="form-input" placeholder="Tipea lo que deseas buscar">
+            <button class="btn form-btn" type="submit">
+                <i class="ri search-line"></i>
+            </button>
+        </form>
+        <span class="form-note">O presiona ESC para cerrar</span>
+    </div>
+
+    <button class="btn form-close-btn place-items-center" id="form-close-btn">
+        <i class="ri-close-line"></i>
+    </button>
+</div>
+<!-- Featured articles -->
+<section class="featured-articles section section-header-offset">
+    <div class="featured-articles-container container d-grid">
+
+        <div class="featured-content d-grid">
+            <div class="headline-banner">
+                <h3 class="headline fancy-border">
+                    <span class="place-items-center">Noticias Recientes</span>
+                </h3>
+                <span class="headline-description">Apple anuncia nuevo patrocinio</span>
+            </div>
+            <a href="./post.html" class="article featured-article featured-article-1">
+                <img src="./assets/images/featured/featured-1.jpg" alt="" class="article-image">
+                <span class="article-category">Recientes</span>
+                <div class="article-data-container">
+                    <div class="article-data">
+                        <span>19 de marzo de 2022</span>
+                        <span class="article-data-spacer"></span>
+                        <span>15 min read</span>
+                    </div>
+                    <h3 class="title article-title">El Agua es el futuro</h3>
+                </div>
+            </a>
+            <a href="./post.html" class="article featured-article featured-article-2">
+                <img src="./assets/images/featured/featured-2.jpg" alt="" class="article-image">
+                <span class="article-category">Recientes</span>
+                <div class="article-data-container">
+                    <div class="article-data">
+                        <span>19 de marzo de 2022</span>
+                        <span class="article-data-spacer"></span>
+                        <span>15 min read</span>
+                    </div>
+                    <h3 class="title article-title">El Agua es el futuro</h3>
+                </div>
+            </a>
+            <a href="./post.html" class="article featured-article featured-article-3">
+                <img src="./assets/images/featured/featured-3.jpg" alt="" class="article-image">
+                <span class="article-category">Recientes</span>
+                <div class="article-data-container">
+                    <div class="article-data">
+                        <span>19 de marzo de 2022</span>
+                        <span class="article-data-spacer"></span>
+                        <span>15 min read</span>
+                    </div>
+                    <h3 class="title article-title">El Agua es el futuro</h3>
+                </div>
+            </a>
+        </div>
+        <!-- Sidebar -->
+        <div class="sidebar d-grid">
+            <h3 class="title featured-content-title">Noticias en tendencia</h3>
+            <a href="#" class="trending-news-box">
+                <div class="trending-news-image-box">
+                    <span class="trending-number place-items-center">01</span>
+                    <img src="./assets/images/trending/trending_1.jpg" alt="" class="article-image">
+                </div>
+                <div class="trending-news-data">
+                    <div class="article-data">
+                        <span>19 de marzo de 2022</span>
+                        <span class="article-data-spacer"></span>
+                        <span>15 min read</span>
+                    </div>                    
+                    <h3 class="title article-title">Ejemplo de artículo de prueba</h3>
+
+                </div>
+            </a>
+            <a href="#" class="trending-news-box">
+                <div class="trending-news-image-box">
+                    <span class="trending-number place-items-center">02</span>
+                    <img src="./assets/images/trending/trending_2.jpg" alt="" class="article-image">
+                </div>
+                <div class="trending-news-data">
+                    <div class="article-data">
+                        <span>19 de marzo de 2022</span>
+                        <span class="article-data-spacer"></span>
+                        <span>15 min read</span>
+                    </div>                    
+                    <h3 class="title article-title">Ejemplo de artículo de prueba</h3>
+
+                </div>
+            </a>
+            <a href="#" class="trending-news-box">
+                <div class="trending-news-image-box">
+                    <span class="trending-number place-items-center">03</span>
+                    <img src="./assets/images/trending/trending_3.jpg" alt="" class="article-image">
+                </div>
+                <div class="trending-news-data">
+                    <div class="article-data">
+                        <span>19 de marzo de 2022</span>
+                        <span class="article-data-spacer"></span>
+                        <span>15 min read</span>
+                    </div>                    
+                    <h3 class="title article-title">Ejemplo de artículo de prueba</h3>
+
+                </div>
+            </a>
+            <a href="#" class="trending-news-box">
+                <div class="trending-news-image-box">
+                    <span class="trending-number place-items-center">04</span>
+                    <img src="./assets/images/trending/trending_4.jpg" alt="" class="article-image">
+                </div>
+                <div class="trending-news-data">
+                    <div class="article-data">
+                        <span>19 de marzo de 2022</span>
+                        <span class="article-data-spacer"></span>
+                        <span>15 min read</span>
+                    </div>                    
+                    <h3 class="title article-title">Ejemplo de artículo de prueba</h3>
+
+                </div>
+            </a>
+            <a href="#" class="trending-news-box">
+                <div class="trending-news-image-box">
+                    <span class="trending-number place-items-center">05</span>
+                    <img src="./assets/images/trending/trending_5.jpg" alt="" class="article-image">
+                </div>
+                <div class="trending-news-data">
+                    <div class="article-data">
+                        <span>19 de marzo de 2022</span>
+                        <span class="article-data-spacer"></span>
+                        <span>15 min read</span>
+                    </div>                    
+                    <h3 class="title article-title">Ejemplo de artículo de prueba</h3>
+                </div>
+            </a>            
+        </div>
+    </div>
+</section>
+<!-- Quick read -->
+<section class="quick-read section">
+    <div class="container">
+        <h2 class="title section-title" data-name="Quick read">Quick read</h2>
+
+        <div class="swiper">
+            <div class="swiper-wrapper">
+
+                <a href="#" class="article swiper-slide">
+                    <img src="./assets/images/quick_read/quick_read_1.jpg" alt="" class="article-image">
+
+                    <div class="article-data-container">
+                        
+                        <div class="article-data">
+                            <span>Fecha</span>
+                            <span class="article-data-spacer"></span>
+                            <span>tiempo de lectura</span>
+                        </div>
+
+                        <h3 class="title article-title">Título del artículo</h3>
+                    </div>
+                </a>
+
+                <a href="#" class="article swiper-slide">
+                    <img src="./assets/images/quick_read/quick_read_2.jpg" alt="" class="article-image">
+
+                    <div class="article-data-container">
+                        <div class="article-data">
+                            <span>Fecha</span>
+                            <span class="article-data-spacer"></span>
+                            <span>tiempo de lectura</span>
+                        </div>
+                        <h3 class="title article-title">Título del artículo</h3>
+                    </div>
+                </a>
+
+                <a href="#" class="article swiper-slide">
+                    <img src="./assets/images/quick_read/quick_read_3.jpg" alt="" class="article-image">
+
+                    <div class="article-data-container">
+                        <div class="article-data">
+                            <span>Fecha</span>
+                            <span class="article-data-spacer"></span>
+                            <span>tiempo de lectura</span>
+                        </div>
+                        <h3 class="title article-title">Título del artículo</h3>
+                    </div>
+                </a>
+
+                <a href="#" class="article swiper-slide">
+                    <img src="./assets/images/quick_read/quick_read_4.jpg" alt="" class="article-image">
+
+                    <div class="article-data-container">
+                        <div class="article-data">
+                            <span>Fecha</span>
+                            <span class="article-data-spacer"></span>
+                            <span>tiempo de lectura</span>
+                        </div>
+                        <h3 class="title article-title">Título del artículo</h3>
+                    </div>
+                </a>
+
+                <a href="#" class="article swiper-slide">
+                    <img src="./assets/images/quick_read/quick_read_5.jpg" alt="" class="article-image">
+
+                    <div class="article-data-container">
+                        <div class="article-data">
+                            <span>Fecha</span>
+                            <span class="article-data-spacer"></span>
+                            <span>tiempo de lectura</span>
+                        </div>
+                        <h3 class="title article-title">Título del artículo</h3>
+                    </div>
+                </a>
+
+                <a href="#" class="article swiper-slide">
+                    <img src="./assets/images/quick_read/quick_read_6.jpg" alt="" class="article-image">
+
+                    <div class="article-data-container">
+                        <div class="article-data">
+                            <span>Fecha</span>
+                            <span class="article-data-spacer"></span>
+                            <span>tiempo de lectura</span>
+                        </div>
+                        <h3 class="title article-title">Título del artículo</h3>
+                    </div>
+                </a>
+            </div>
+
+            <!-- Navigation buttons -->
+            <div class="swiper-button-prev swiper-controls"></div>
+            <div class="swiper-button-next swiper-controls"></div>
+            <!-- Pagination -->
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
+</section>
+<!-- Older posts -->
+<section class="older-posts section">
+    <div class="container">
+        <h2 class="title section-title" data-name="Older Posts">Older Posts</h2>
+        <div class="older-posts-grid-wrapper d-grid">
+            <a href="#" class="article d-grid">
+                <div class="older-posts-article-image-wrapper">
+                    <img src="./assets/images/older_posts/older_posts_1.jpg" alt="" class="article-image">
+                </div>
+                <div class="article-data-container">
+                    <div class="article-data">
+                        <span>Fecha</span>
+                        <span class="article-data-spacer"></span>
+                        <span>Tiempo del lectura</span>
+                    </div>
+                    <h3 class="title article-title">Titulo de artículos pasados</h3>
+                </div>
+            </a>
+        </div>
+        <div class="see-more-container">
+            <a href="" class="btn see-more-btn place-items-center">Ver más <i class="ri-arrow-right-s-line"></i></a>
+        </div>
+    </div>
+</section>
+
+<!-- Popular tags -->
+
+<section class="popular-tags section">
+    <div class="container">
+        <h2 class="title section-title" data-name="Temas populares">Temas Populares</h2>
+        <div class="popular-tags-container d-grid">
+            <a href="#" class="article">
+                <span class="tag-name">VIAJES</span>
+                <img src="./assets/images/tags/travel-tag.jpg" alt="" class="article-image">
+            </a>
+            <a href="#" class="article">
+                <span class="tag-name">COMIDA</span>
+                <img src="./assets/images/tags/food-tag.jpg" alt="" class="article-image">
+            </a>
+            <a href="#" class="article">
+                <span class="tag-name">TECNOLOGIA</span>
+                <img src="./assets/images/tags/technology-tag.jpg" alt="" class="article-image">
+            </a>
+            <a href="#" class="article">
+                <span class="tag-name">SALUD</span>
+                <img src="./assets/images/tags/health-tag.jpg" alt="" class="article-image">
+            </a>
+            <a href="#" class="article">
+                <span class="tag-name">NATURALEZA</span>
+                <img src="./assets/images/tags/nature-tag.jpg" alt="" class="article-image">
+            </a>
+            <a href="#" class="article">
+                <span class="tag-name">FITNESS</span>
+                <img src="./assets/images/tags/fitness-tag.jpg" alt="" class="article-image">
+            </a>
+        </div>
+    </div>
+</section>
+
+<!-- Noticias Recientes -->
+
+<section class="newsletter section">
+    <div class="container">
+
+        <h2 class="title section-title" data-name="Noticias Recientes">Noticias Recientes</h2>
+        <div class="form-container-inner">
+           
+            <h6 class="title newsletter-title">Saluda</h6>
+            <p class="newsletter-description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                Fugit quaerat dolore odio culpa a! Magni accusamus architecto facilis praesentium pariatur 
+                voluptate quam nihil quod. Aut voluptate doloribus magnam incidunt vitae corrupti ipsum quod
+                 tenetur ipsa facilis temporibus ut neque numquam fugiat libero aliquam dolor ratione totam exercitationem, 
+                 quaerat nemo. Quasi?</p>
+       
+                 <form action="" class="form">
+            <input type="text" class="form-input" placeholder="Ingresa tu dirección de correo">
+           
+            <button class="btn form-btn" type="submit">
+                <i class="ri-mail-send-line"></i>
+            </button>
+        </form>
+        </div>
+    </div>
+</section>
+<!-- footer -->
+<footer class="footer section">
+    <div class="footer-container container d-grid">
+        <div class="company-data">
+            <a href="./index.html">
+                <h2 class="logo">KevinMJ</h2>
+            </a>
+            <p class="company-description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Incidunt ullam alias obcaecati quidem veniam nemo officia soluta 
+                necessitatibus rerum recusandae, laboriosam, animi provident. 
+                Illum molestias numquam ab maxime accusantium eos?
+            </p>
+            <ul class="list social-media">
+                <li class="list-item">
+                    <a href="#" class="list-link">
+                        <i class="ri-linkedin-line"></i>
+                    </a>
+                    <a href="#" class="list-link">
+                        <i class="ri-instagram-line"></i>
+                    </a>
+                    <a href="#" class="list-link">
+                        <i class="ri-github-line"></i>
+                    </a>
+                </li>
+            </ul>
+            <span class="copyright-notice">&copy;2022 KevinMJ All rights reserved</span>
+        </div>
+
+    </div>
+</footer>
+
+
+<!-- Swipper.js -->
+<script src="./assets/js/swiper-bundle.min.js"></script>
+<!-- Custom script -->
+<script src="./assets/js/main.js"></script>
+    </body>
+</html>
